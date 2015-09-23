@@ -257,7 +257,8 @@ class hubspotEbaySignup {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-        <link rel="stylesheet" href="css/styles.css">
+        <!-- for some nice, simple css, use the stuff here: 
+             http://demo.tutorialzine.com/2014/12/quick-tip-easy-form-validation-with-html5/ -->
 
     </head>
 
