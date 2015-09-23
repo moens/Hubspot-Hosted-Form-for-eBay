@@ -201,7 +201,7 @@ class hubspotEbaySignup {
         $result = $this->requestPage($getContactByEmailUrl, '');
         if($result['err'] != 'none'){
             // todo: no email address in hubspot.... we should ask again for the email here
-            $content = '<h1>Perry Null Trading Newsletter</h1><p>Success!</p><p><a class="btn btn-default" href="' . $returnUrl . '">Thank you for signing up! Click to return to eBay...</a></p>';
+            $content = '<h1>{Your Business Name} Newsletter</h1><p>Success!</p><p><a class="btn btn-default" href="' . $returnUrl . '">Thank you for signing up! Click to return to eBay...</a></p>';
             return $content;
         } else {
             $contactId = $result['response']['identity-profiles']['vid'];
